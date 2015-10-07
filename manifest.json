@@ -2,7 +2,7 @@
     "update_url": "http://clients2.google.com/service/update2/crx",
     "manifest_version": 2,
     "name": "imgur to filmot",
-    "description": "Converts imgur links to filmot ones automatically. Great if imgur is blocked at work or school.",
+    "description": "Converts imgur links to filmot links automatically in a webpage. Great if imgur is blocked at work or school.",
     "version": "0.1",
     "icons": { "16": "icons/icon16.png",
                "48": "icons/icon48.png",
