@@ -3,18 +3,14 @@
     "manifest_version": 2,
     "name": "imgur to filmot",
     "description": "Converts imgur links to filmot links automatically in a webpage. Great if imgur is blocked at work or school.",
-    "version": "0.1",
+    "version": "1.0",
     "icons": { "16": "icons/icon16.png",
                "48": "icons/icon48.png",
                "128": "icons/icon128.png" },
     "content_scripts": [
         {
-            "matches": [
-                "<all_urls>"
-            ],
-            "js": [
-                "swaplinks.js"
-            ]
+            "matches": ["<all_urls>"],
+            "js": ["swaplinks.js"]
         }
     ]
 }
